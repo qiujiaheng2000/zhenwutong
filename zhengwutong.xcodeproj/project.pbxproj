@@ -55,6 +55,9 @@
 		690235F71CF8FEFE00FEC469 /* ZWTSearchTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690235F21CF8FEFE00FEC469 /* ZWTSearchTableViewController.xib */; };
 		690235F81CF8FEFE00FEC469 /* ZWTSearchTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690235F21CF8FEFE00FEC469 /* ZWTSearchTableViewController.xib */; };
 		690235FA1CF902A700FEC469 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 690235A81CF8F8D600FEC469 /* AppDelegate.m */; };
+		690236411CF91C7C00FEC469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6902363F1CF91C7C00FEC469 /* LaunchScreen.storyboard */; };
+		690236421CF91C7C00FEC469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6902363F1CF91C7C00FEC469 /* LaunchScreen.storyboard */; };
+		690236431CF91C7C00FEC469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6902363F1CF91C7C00FEC469 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +79,6 @@
 
 /* Begin PBXFileReference section */
 		6902355E1CF8969200FEC469 /* zhengwutong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhengwutong.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		690235621CF8969200FEC469 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6902356D1CF8969200FEC469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		690235721CF8969200FEC469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		690235771CF8969200FEC469 /* zhengwutongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhengwutongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +113,7 @@
 		690235F01CF8FEFE00FEC469 /* ZWTSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWTSearchTableViewController.h; sourceTree = "<group>"; };
 		690235F11CF8FEFE00FEC469 /* ZWTSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWTSearchTableViewController.m; sourceTree = "<group>"; };
 		690235F21CF8FEFE00FEC469 /* ZWTSearchTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWTSearchTableViewController.xib; sourceTree = "<group>"; };
+		690236401CF91C7C00FEC469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +166,7 @@
 			children = (
 				690235991CF8F8D600FEC469 /* Classes */,
 				6902356D1CF8969200FEC469 /* Assets.xcassets */,
+				6902363F1CF91C7C00FEC469 /* LaunchScreen.storyboard */,
 				690235721CF8969200FEC469 /* Info.plist */,
 				690235611CF8969200FEC469 /* Supporting Files */,
 			);
@@ -172,7 +176,6 @@
 		690235611CF8969200FEC469 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				690235621CF8969200FEC469 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -512,6 +515,7 @@
 				6902356E1CF8969200FEC469 /* Assets.xcassets in Resources */,
 				690235F61CF8FEFE00FEC469 /* ZWTSearchTableViewController.xib in Resources */,
 				690235E41CF8FEC100FEC469 /* ZWTInteractionTableViewController.xib in Resources */,
+				690236411CF91C7C00FEC469 /* LaunchScreen.storyboard in Resources */,
 				690235ED1CF8FEEA00FEC469 /* ZWTNotificationTableViewController.xib in Resources */,
 				690235DB1CF8FE5400FEC469 /* ZWTCurriculumTableViewController.xib in Resources */,
 			);
@@ -524,6 +528,7 @@
 				690235EE1CF8FEEA00FEC469 /* ZWTNotificationTableViewController.xib in Resources */,
 				690235E51CF8FEC100FEC469 /* ZWTInteractionTableViewController.xib in Resources */,
 				690235F71CF8FEFE00FEC469 /* ZWTSearchTableViewController.xib in Resources */,
+				690236421CF91C7C00FEC469 /* LaunchScreen.storyboard in Resources */,
 				690235DC1CF8FE5400FEC469 /* ZWTCurriculumTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,6 +540,7 @@
 				690235EF1CF8FEEA00FEC469 /* ZWTNotificationTableViewController.xib in Resources */,
 				690235E61CF8FEC100FEC469 /* ZWTInteractionTableViewController.xib in Resources */,
 				690235F81CF8FEFE00FEC469 /* ZWTSearchTableViewController.xib in Resources */,
+				690236431CF91C7C00FEC469 /* LaunchScreen.storyboard in Resources */,
 				690235DD1CF8FE5400FEC469 /* ZWTCurriculumTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -612,6 +618,17 @@
 			targetProxy = 690235831CF8969200FEC469 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6902363F1CF91C7C00FEC469 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				690236401CF91C7C00FEC469 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		690235891CF8969200FEC469 /* Debug */ = {
