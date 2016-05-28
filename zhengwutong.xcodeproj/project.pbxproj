@@ -58,6 +58,9 @@
 		690236411CF91C7C00FEC469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6902363F1CF91C7C00FEC469 /* LaunchScreen.storyboard */; };
 		690236421CF91C7C00FEC469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6902363F1CF91C7C00FEC469 /* LaunchScreen.storyboard */; };
 		690236431CF91C7C00FEC469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6902363F1CF91C7C00FEC469 /* LaunchScreen.storyboard */; };
+		75CA0C48145EE5DD93E2DA7A /* libPods-zhengwutongTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320FE7069AC8742037E89795 /* libPods-zhengwutongTests.a */; };
+		CB364EA1E3325F9DF9AA1071 /* libPods-zhengwutong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EE588E8AD877BA1686A971 /* libPods-zhengwutong.a */; };
+		F4E0846A0A395A205E0666C8 /* libPods-zhengwutongUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D04918BE32B33BA218AAE9 /* libPods-zhengwutongUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +81,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13C1B44BB81F7E1BB3506DA8 /* Pods-zhengwutong.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhengwutong.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhengwutong/Pods-zhengwutong.debug.xcconfig"; sourceTree = "<group>"; };
+		320FE7069AC8742037E89795 /* libPods-zhengwutongTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zhengwutongTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6EC4E7479AD688AEC232A6 /* Pods-zhengwutong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhengwutong.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhengwutong/Pods-zhengwutong.release.xcconfig"; sourceTree = "<group>"; };
+		63582B7087AF8DCEEABD0D42 /* Pods-zhengwutongUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhengwutongUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhengwutongUITests/Pods-zhengwutongUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6902355E1CF8969200FEC469 /* zhengwutong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhengwutong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6902356D1CF8969200FEC469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		690235721CF8969200FEC469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,6 +121,11 @@
 		690235F11CF8FEFE00FEC469 /* ZWTSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWTSearchTableViewController.m; sourceTree = "<group>"; };
 		690235F21CF8FEFE00FEC469 /* ZWTSearchTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWTSearchTableViewController.xib; sourceTree = "<group>"; };
 		690236401CF91C7C00FEC469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8407B75109D9C492C5E41F0D /* Pods-zhengwutongUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhengwutongUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhengwutongUITests/Pods-zhengwutongUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BC216FAAB779C283E94D18A /* Pods-zhengwutongTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhengwutongTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhengwutongTests/Pods-zhengwutongTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3D04918BE32B33BA218AAE9 /* libPods-zhengwutongUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zhengwutongUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EE588E8AD877BA1686A971 /* libPods-zhengwutong.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zhengwutong.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A1884352E78BCA0767B904 /* Pods-zhengwutongTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhengwutongTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhengwutongTests/Pods-zhengwutongTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB364EA1E3325F9DF9AA1071 /* libPods-zhengwutong.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75CA0C48145EE5DD93E2DA7A /* libPods-zhengwutongTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,12 +149,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E0846A0A395A205E0666C8 /* libPods-zhengwutongUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6303EB2FC4F232D0555E8132 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13C1B44BB81F7E1BB3506DA8 /* Pods-zhengwutong.debug.xcconfig */,
+				5B6EC4E7479AD688AEC232A6 /* Pods-zhengwutong.release.xcconfig */,
+				E1A1884352E78BCA0767B904 /* Pods-zhengwutongTests.debug.xcconfig */,
+				9BC216FAAB779C283E94D18A /* Pods-zhengwutongTests.release.xcconfig */,
+				8407B75109D9C492C5E41F0D /* Pods-zhengwutongUITests.debug.xcconfig */,
+				63582B7087AF8DCEEABD0D42 /* Pods-zhengwutongUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		644E0222C5169C5CEA2E6EF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3EE588E8AD877BA1686A971 /* libPods-zhengwutong.a */,
+				320FE7069AC8742037E89795 /* libPods-zhengwutongTests.a */,
+				B3D04918BE32B33BA218AAE9 /* libPods-zhengwutongUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		690235551CF8969200FEC469 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +186,8 @@
 				6902357A1CF8969200FEC469 /* zhengwutongTests */,
 				690235851CF8969200FEC469 /* zhengwutongUITests */,
 				6902355F1CF8969200FEC469 /* Products */,
+				6303EB2FC4F232D0555E8132 /* Pods */,
+				644E0222C5169C5CEA2E6EF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -414,9 +454,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6902358B1CF8969200FEC469 /* Build configuration list for PBXNativeTarget "zhengwutong" */;
 			buildPhases = (
+				F6F14EFE335E51B105478776 /* 📦 Check Pods Manifest.lock */,
 				6902355A1CF8969200FEC469 /* Sources */,
 				6902355B1CF8969200FEC469 /* Frameworks */,
 				6902355C1CF8969200FEC469 /* Resources */,
+				1AEEDDF66C5DFDDD71D83B4E /* 📦 Embed Pods Frameworks */,
+				E017612347803CBD3492F8DC /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -431,9 +474,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6902358E1CF8969200FEC469 /* Build configuration list for PBXNativeTarget "zhengwutongTests" */;
 			buildPhases = (
+				2EF4C79C0B113680D619DDB7 /* 📦 Check Pods Manifest.lock */,
 				690235731CF8969200FEC469 /* Sources */,
 				690235741CF8969200FEC469 /* Frameworks */,
 				690235751CF8969200FEC469 /* Resources */,
+				E769ACE52BD3BB810D6652E2 /* 📦 Embed Pods Frameworks */,
+				5F323B7583DA5BA7D0B4DFB6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -449,9 +495,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 690235911CF8969200FEC469 /* Build configuration list for PBXNativeTarget "zhengwutongUITests" */;
 			buildPhases = (
+				1C9A304CEAC413CC15F3B2FF /* 📦 Check Pods Manifest.lock */,
 				6902357E1CF8969200FEC469 /* Sources */,
 				6902357F1CF8969200FEC469 /* Frameworks */,
 				690235801CF8969200FEC469 /* Resources */,
+				89B478B52A136631AD77599D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -546,6 +594,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AEEDDF66C5DFDDD71D83B4E /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zhengwutong/Pods-zhengwutong-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C9A304CEAC413CC15F3B2FF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2EF4C79C0B113680D619DDB7 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F323B7583DA5BA7D0B4DFB6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zhengwutongTests/Pods-zhengwutongTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89B478B52A136631AD77599D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zhengwutongUITests/Pods-zhengwutongUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E017612347803CBD3492F8DC /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zhengwutong/Pods-zhengwutong-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E769ACE52BD3BB810D6652E2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zhengwutongTests/Pods-zhengwutongTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F14EFE335E51B105478776 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6902355A1CF8969200FEC469 /* Sources */ = {
@@ -717,6 +888,7 @@
 		};
 		6902358C1CF8969200FEC469 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13C1B44BB81F7E1BB3506DA8 /* Pods-zhengwutong.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -732,6 +904,7 @@
 		};
 		6902358D1CF8969200FEC469 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6EC4E7479AD688AEC232A6 /* Pods-zhengwutong.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -747,6 +920,7 @@
 		};
 		6902358F1CF8969200FEC469 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1A1884352E78BCA0767B904 /* Pods-zhengwutongTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = zhengwutongTests/Info.plist;
@@ -759,6 +933,7 @@
 		};
 		690235901CF8969200FEC469 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC216FAAB779C283E94D18A /* Pods-zhengwutongTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = zhengwutongTests/Info.plist;
@@ -771,6 +946,7 @@
 		};
 		690235921CF8969200FEC469 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8407B75109D9C492C5E41F0D /* Pods-zhengwutongUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = zhengwutongUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -782,6 +958,7 @@
 		};
 		690235931CF8969200FEC469 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63582B7087AF8DCEEABD0D42 /* Pods-zhengwutongUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = zhengwutongUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

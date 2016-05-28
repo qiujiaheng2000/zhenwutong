@@ -75,7 +75,7 @@
     [self setupChildViewController:interactionController title:@"互动" imageName:@"tabbar_profile" selectedImageName:@"tabbar_profile_selected"];
     
     ZWTSearchTableViewController *searchController = [[ZWTSearchTableViewController alloc]init];
-    [self setupChildViewController:searchController title:@"搜索" imageName:@"tabbar_discover" selectedImageName:@"tabbar_discover"];
+    [self setupChildViewController:searchController title:@"搜索" imageName:@"tabbar_discover" selectedImageName:@"tabbar_discover_selected"];
 
 }
 
