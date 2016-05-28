@@ -10,4 +10,6 @@
 
 @interface ZWTTabBarController : UITabBarController
 
+-(void)setTabbarBadge:(NSUInteger )index badgeValue:(NSString*)badgeValue;
+
 @end

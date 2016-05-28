@@ -13,9 +13,21 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #import "UIImage+TX.h"
-
+#import "GlobalFunc.h"
+#import "MBProgressHUD.h"
 // 2.获得RGB颜色
 #define IWColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
 
+#define DEV_UUID @"deviceId"
+#define kAccessToken @"access_token"
+#define networkErrorMesage @"您当前的网络状况不佳或者不可用"
+#define IMAGE_MAX_SIZE 1500
+
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+
+#define LOGIN_API @"profile/login"
 
 #endif /* zhengwutong_Prifix_pch */

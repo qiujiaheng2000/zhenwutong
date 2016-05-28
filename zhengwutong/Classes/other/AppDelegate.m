@@ -9,11 +9,25 @@
 #import "AppDelegate.h"
 #import "ZWTTabBarController.h"
 
+AppDelegate* _zwtAppDelegate=nil;
+
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
+
++(AppDelegate*) currentAppDelegate
+{
+    return _zwtAppDelegate;
+}
+
+-(void)logoutByServer{
+    //TODO
+}
++ (void)onNetworkOK{
+    //TODO
+}
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

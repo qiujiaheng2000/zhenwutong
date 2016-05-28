@@ -17,6 +17,7 @@
 @interface ZWTTabBarController () <ZWTTabBarDelegate>
 
 @property(nonatomic,weak)ZWTTabBar *customTabbar;
+@property(nonatomic,strong)NSMutableArray *tabControllers;
 @end
 
 @implementation ZWTTabBarController
@@ -33,6 +34,12 @@
 
    }
 
+-(NSMutableArray*)tabControllers{
+    if(!_tabControllers){
+        return [NSMutableArray array];
+    }
+    return _tabControllers;
+}
 
 -(void)viewWillAppear:(BOOL)animated
 {
@@ -63,17 +70,20 @@
 
 -(void)setupAllChildViewControllers
 {
+    //通知
     ZWTNotificationTableViewController *notificationController = [[ZWTNotificationTableViewController alloc]init];
     [self setupChildViewController:notificationController title:@"通知" imageName:@"tabbar_message_center" selectedImageName:@"tabbar_message_center_selected"];
     notificationController.tabBarItem.badgeValue = @"11111";
     
+    //课程表
     ZWTCurriculumTableViewController *curriculumController = [[ZWTCurriculumTableViewController alloc]init];
     [self setupChildViewController:curriculumController title:@"课程表" imageName:@"tabbar_home" selectedImageName:@"tabbar_home_selected"];
 
-    
+    //互动
     ZWTInteractionTableViewController *interactionController = [[ZWTInteractionTableViewController alloc]init];
     [self setupChildViewController:interactionController title:@"互动" imageName:@"tabbar_profile" selectedImageName:@"tabbar_profile_selected"];
     
+    //搜索
     ZWTSearchTableViewController *searchController = [[ZWTSearchTableViewController alloc]init];
     [self setupChildViewController:searchController title:@"搜索" imageName:@"tabbar_discover" selectedImageName:@"tabbar_discover_selected"];
 
@@ -98,6 +108,10 @@
 
     //添加tabbar内部的按钮
     [self.customTabbar addTabbarButtonWithItem:childVc.tabBarItem];
+    
+    //添加底部控制器到集合中
+    [self.tabControllers addObject:childVc];
+    
 }
 
 
@@ -105,6 +119,12 @@
 {
     self.selectedIndex = to;
 }
+
+-(void)setTabbarBadge:(NSUInteger)index badgeValue:(NSString*)badgeValue{
+    UIViewController *vc = [self.tabControllers objectAtIndex:index];
+    vc.tabBarItem.badgeValue = @"11111";
+}
+
 /*
 #pragma mark - Navigation
 
