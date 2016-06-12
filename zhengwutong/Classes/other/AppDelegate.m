@@ -56,8 +56,20 @@ AppDelegate* _zwtAppDelegate=nil;
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+    // Saves changes in the application's managed object context before the application terminates.
+    _zwtAppDelegate=nil;
 }
 
+- (void)awakeFromNib
+{
+    /*
+     Typically you should set up the Core Data stack here, usually by passing the managed object context to the first view controller.
+     self.<#View controller#>.managedObjectContext = self.managedObjectContext;
+     */
+    if (_zwtAppDelegate==nil) {
+        _zwtAppDelegate = self;
+    }
+}
 @end

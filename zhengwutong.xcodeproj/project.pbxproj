@@ -124,6 +124,15 @@
 		690236C91CF95E4900FEC469 /* NSDate+conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 690236C81CF95E4900FEC469 /* NSDate+conversion.m */; };
 		690236CA1CF95E4900FEC469 /* NSDate+conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 690236C81CF95E4900FEC469 /* NSDate+conversion.m */; };
 		690236CB1CF95E4900FEC469 /* NSDate+conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 690236C81CF95E4900FEC469 /* NSDate+conversion.m */; };
+		69D9A4061CFB3CE900A86DA7 /* ZWTScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D9A4041CFB3CE900A86DA7 /* ZWTScoreViewController.m */; };
+		69D9A4071CFB3CE900A86DA7 /* ZWTScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D9A4041CFB3CE900A86DA7 /* ZWTScoreViewController.m */; };
+		69D9A4081CFB3CE900A86DA7 /* ZWTScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D9A4041CFB3CE900A86DA7 /* ZWTScoreViewController.m */; };
+		69D9A4091CFB3CE900A86DA7 /* ZWTScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69D9A4051CFB3CE900A86DA7 /* ZWTScoreViewController.xib */; };
+		69D9A40A1CFB3CE900A86DA7 /* ZWTScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69D9A4051CFB3CE900A86DA7 /* ZWTScoreViewController.xib */; };
+		69D9A40B1CFB3CE900A86DA7 /* ZWTScoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69D9A4051CFB3CE900A86DA7 /* ZWTScoreViewController.xib */; };
+		69D9A4101CFD4BCE00A86DA7 /* NIDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D9A40F1CFD4BCE00A86DA7 /* NIDropDown.m */; };
+		69D9A4111CFD4BCF00A86DA7 /* NIDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D9A40F1CFD4BCE00A86DA7 /* NIDropDown.m */; };
+		69D9A4121CFD4BCF00A86DA7 /* NIDropDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D9A40F1CFD4BCE00A86DA7 /* NIDropDown.m */; };
 		75CA0C48145EE5DD93E2DA7A /* libPods-zhengwutongTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 320FE7069AC8742037E89795 /* libPods-zhengwutongTests.a */; };
 		CB364EA1E3325F9DF9AA1071 /* libPods-zhengwutong.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EE588E8AD877BA1686A971 /* libPods-zhengwutong.a */; };
 		F4E0846A0A395A205E0666C8 /* libPods-zhengwutongUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D04918BE32B33BA218AAE9 /* libPods-zhengwutongUITests.a */; };
@@ -151,7 +160,7 @@
 		320FE7069AC8742037E89795 /* libPods-zhengwutongTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zhengwutongTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6EC4E7479AD688AEC232A6 /* Pods-zhengwutong.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhengwutong.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhengwutong/Pods-zhengwutong.release.xcconfig"; sourceTree = "<group>"; };
 		63582B7087AF8DCEEABD0D42 /* Pods-zhengwutongUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhengwutongUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhengwutongUITests/Pods-zhengwutongUITests.release.xcconfig"; sourceTree = "<group>"; };
-		6902355E1CF8969200FEC469 /* zhengwutong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhengwutong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6902355E1CF8969200FEC469 /* 政务通.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "政务通.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6902356D1CF8969200FEC469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		690235721CF8969200FEC469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		690235771CF8969200FEC469 /* zhengwutongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhengwutongTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -231,6 +240,11 @@
 		690236C01CF95DEB00FEC469 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 		690236C71CF95E4900FEC469 /* NSDate+conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+conversion.h"; sourceTree = "<group>"; };
 		690236C81CF95E4900FEC469 /* NSDate+conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+conversion.m"; sourceTree = "<group>"; };
+		69D9A4031CFB3CE900A86DA7 /* ZWTScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWTScoreViewController.h; sourceTree = "<group>"; };
+		69D9A4041CFB3CE900A86DA7 /* ZWTScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWTScoreViewController.m; sourceTree = "<group>"; };
+		69D9A4051CFB3CE900A86DA7 /* ZWTScoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZWTScoreViewController.xib; sourceTree = "<group>"; };
+		69D9A40E1CFD4BCE00A86DA7 /* NIDropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIDropDown.h; sourceTree = "<group>"; };
+		69D9A40F1CFD4BCE00A86DA7 /* NIDropDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIDropDown.m; sourceTree = "<group>"; };
 		8407B75109D9C492C5E41F0D /* Pods-zhengwutongUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhengwutongUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhengwutongUITests/Pods-zhengwutongUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9BC216FAAB779C283E94D18A /* Pods-zhengwutongTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhengwutongTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhengwutongTests/Pods-zhengwutongTests.release.xcconfig"; sourceTree = "<group>"; };
 		B3D04918BE32B33BA218AAE9 /* libPods-zhengwutongUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zhengwutongUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -304,7 +318,7 @@
 		6902355F1CF8969200FEC469 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6902355E1CF8969200FEC469 /* zhengwutong.app */,
+				6902355E1CF8969200FEC469 /* 政务通.app */,
 				690235771CF8969200FEC469 /* zhengwutongTests.xctest */,
 				690235821CF8969200FEC469 /* zhengwutongUITests.xctest */,
 			);
@@ -493,6 +507,9 @@
 				690235F01CF8FEFE00FEC469 /* ZWTSearchTableViewController.h */,
 				690235F11CF8FEFE00FEC469 /* ZWTSearchTableViewController.m */,
 				690235F21CF8FEFE00FEC469 /* ZWTSearchTableViewController.xib */,
+				69D9A4031CFB3CE900A86DA7 /* ZWTScoreViewController.h */,
+				69D9A4041CFB3CE900A86DA7 /* ZWTScoreViewController.m */,
+				69D9A4051CFB3CE900A86DA7 /* ZWTScoreViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -599,6 +616,7 @@
 			isa = PBXGroup;
 			children = (
 				6902366E1CF93AED00FEC469 /* alertBox */,
+				69D9A40D1CFD4BCE00A86DA7 /* NIDropDown */,
 			);
 			path = customViews;
 			sourceTree = "<group>";
@@ -641,6 +659,15 @@
 			path = json;
 			sourceTree = "<group>";
 		};
+		69D9A40D1CFD4BCE00A86DA7 /* NIDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				69D9A40E1CFD4BCE00A86DA7 /* NIDropDown.h */,
+				69D9A40F1CFD4BCE00A86DA7 /* NIDropDown.m */,
+			);
+			path = NIDropDown;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -661,7 +688,7 @@
 			);
 			name = zhengwutong;
 			productName = zhengwutong;
-			productReference = 6902355E1CF8969200FEC469 /* zhengwutong.app */;
+			productReference = 6902355E1CF8969200FEC469 /* 政务通.app */;
 			productType = "com.apple.product-type.application";
 		};
 		690235761CF8969200FEC469 /* zhengwutongTests */ = {
@@ -758,6 +785,7 @@
 				690235F61CF8FEFE00FEC469 /* ZWTSearchTableViewController.xib in Resources */,
 				690235E41CF8FEC100FEC469 /* ZWTInteractionTableViewController.xib in Resources */,
 				690236411CF91C7C00FEC469 /* LaunchScreen.storyboard in Resources */,
+				69D9A4091CFB3CE900A86DA7 /* ZWTScoreViewController.xib in Resources */,
 				690235ED1CF8FEEA00FEC469 /* ZWTNotificationTableViewController.xib in Resources */,
 				690235DB1CF8FE5400FEC469 /* ZWTCurriculumTableViewController.xib in Resources */,
 			);
@@ -768,6 +796,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				690235EE1CF8FEEA00FEC469 /* ZWTNotificationTableViewController.xib in Resources */,
+				69D9A40A1CFB3CE900A86DA7 /* ZWTScoreViewController.xib in Resources */,
 				690235E51CF8FEC100FEC469 /* ZWTInteractionTableViewController.xib in Resources */,
 				690235F71CF8FEFE00FEC469 /* ZWTSearchTableViewController.xib in Resources */,
 				690236421CF91C7C00FEC469 /* LaunchScreen.storyboard in Resources */,
@@ -780,6 +809,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				690235EF1CF8FEEA00FEC469 /* ZWTNotificationTableViewController.xib in Resources */,
+				69D9A40B1CFB3CE900A86DA7 /* ZWTScoreViewController.xib in Resources */,
 				690235E61CF8FEC100FEC469 /* ZWTInteractionTableViewController.xib in Resources */,
 				690235F81CF8FEFE00FEC469 /* ZWTSearchTableViewController.xib in Resources */,
 				690236431CF91C7C00FEC469 /* LaunchScreen.storyboard in Resources */,
@@ -926,6 +956,7 @@
 				690236671CF9398B00FEC469 /* YXClient.m in Sources */,
 				690235F31CF8FEFE00FEC469 /* ZWTSearchTableViewController.m in Sources */,
 				690235B11CF8F8D600FEC469 /* main.m in Sources */,
+				69D9A4061CFB3CE900A86DA7 /* ZWTScoreViewController.m in Sources */,
 				6902368B1CF9479600FEC469 /* YXUser.m in Sources */,
 				690235E11CF8FEC100FEC469 /* ZWTInteractionTableViewController.m in Sources */,
 				690236BA1CF955F600FEC469 /* UIAlertView+Helper.m in Sources */,
@@ -943,6 +974,7 @@
 				690236C91CF95E4900FEC469 /* NSDate+conversion.m in Sources */,
 				690236551CF9398B00FEC469 /* NSData+CommonCrypto.m in Sources */,
 				690236AD1CF951AF00FEC469 /* SBJsonParser.m in Sources */,
+				69D9A4101CFD4BCE00A86DA7 /* NIDropDown.m in Sources */,
 				690235C01CF8F91500FEC469 /* ZWTTabBarController.m in Sources */,
 				690236801CF9464D00FEC469 /* NSObject+performBlockAfterDelay.m in Sources */,
 				690236851CF9466400FEC469 /* NSMutableDictionary+Safe.m in Sources */,
@@ -983,10 +1015,12 @@
 				690235D91CF8FE5400FEC469 /* ZWTCurriculumTableViewController.m in Sources */,
 				690236AB1CF951AF00FEC469 /* SBJsonBase.m in Sources */,
 				6902368C1CF9479600FEC469 /* YXUser.m in Sources */,
+				69D9A4071CFB3CE900A86DA7 /* ZWTScoreViewController.m in Sources */,
 				690236591CF9398B00FEC469 /* ServerEnvironment+env.m in Sources */,
 				690236BB1CF955F600FEC469 /* UIAlertView+Helper.m in Sources */,
 				690235D21CF8FB4000FEC469 /* UIImage+TX.m in Sources */,
 				690236721CF93AED00FEC469 /* AlertBox.m in Sources */,
+				69D9A4111CFD4BCF00A86DA7 /* NIDropDown.m in Sources */,
 				690236C21CF95DEB00FEC469 /* UIImage+Alpha.m in Sources */,
 				690236B11CF951AF00FEC469 /* SBJsonWriter.m in Sources */,
 				690236911CF9483200FEC469 /* NSDictionaryAdditions.m in Sources */,
@@ -1024,10 +1058,12 @@
 				690235DA1CF8FE5400FEC469 /* ZWTCurriculumTableViewController.m in Sources */,
 				690236AC1CF951AF00FEC469 /* SBJsonBase.m in Sources */,
 				6902368D1CF9479600FEC469 /* YXUser.m in Sources */,
+				69D9A4081CFB3CE900A86DA7 /* ZWTScoreViewController.m in Sources */,
 				6902365A1CF9398B00FEC469 /* ServerEnvironment+env.m in Sources */,
 				690236BC1CF955F600FEC469 /* UIAlertView+Helper.m in Sources */,
 				690235D31CF8FB4000FEC469 /* UIImage+TX.m in Sources */,
 				690236731CF93AED00FEC469 /* AlertBox.m in Sources */,
+				69D9A4121CFD4BCF00A86DA7 /* NIDropDown.m in Sources */,
 				690236C31CF95DEB00FEC469 /* UIImage+Alpha.m in Sources */,
 				690236B21CF951AF00FEC469 /* SBJsonWriter.m in Sources */,
 				690236921CF9483200FEC469 /* NSDictionaryAdditions.m in Sources */,
@@ -1157,7 +1193,7 @@
 				INFOPLIST_FILE = zhengwutong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = leqimin.zhengwutong;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "政务通";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -1173,7 +1209,7 @@
 				INFOPLIST_FILE = zhengwutong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = leqimin.zhengwutong;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "政务通";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;

@@ -7,8 +7,16 @@
 //
 
 #import "ZWTSearchTableViewController.h"
+#import "ZWTScoreViewController.h"
 
 @interface ZWTSearchTableViewController ()
+//查成绩cell
+@property (strong, nonatomic) IBOutlet UITableViewCell *scoreCell;
+//查考勤cell
+@property (strong, nonatomic) IBOutlet UITableViewCell *attendanceCell;
+
+@property(nonatomic,strong) NSMutableArray *cells;
+
 
 @end
 
@@ -16,6 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self configCells];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -29,27 +38,48 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)configCells {
+    [self.cells addObject:self.scoreCell];
+    [self.cells addObject:self.attendanceCell];
+}
+
+-(NSMutableArray*)cells{
+    if(!_cells){
+        _cells = [NSMutableArray array];
+    }
+    return _cells;
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    
+    return [self.cells count];
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
+   
+    return self.cells[indexPath.row];
 }
-*/
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    if(indexPath.row == 0){
+        ZWTScoreViewController* vc = [[ZWTScoreViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:YES];
+        
+    }else{
+        ZWTScoreViewController* vc = [[ZWTScoreViewController alloc]init];
+        AppPresentViewControllerAnimation(vc,YES);
+
+    }
+}
+
 
 /*
 // Override to support conditional editing of the table view.

@@ -9,19 +9,16 @@
 #import "ZWTInteractionTableViewController.h"
 
 @interface ZWTInteractionTableViewController ()
-
+@property (strong, nonatomic) IBOutlet UITableViewCell *evaluationCell;
+@property (strong, nonatomic) IBOutlet UITableViewCell *investigationCell;
+@property (strong, nonatomic) NSMutableArray *tableCells;
 @end
 
 @implementation ZWTInteractionTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [self configCells];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,27 +26,38 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)configCells {
+    [self.tableCells addObject:self.evaluationCell];
+    [self.tableCells addObject:self.investigationCell];
+}
+
+-(NSMutableArray*)tableCells {
+    if(!_tableCells){
+        _tableCells = [NSMutableArray array];
+    }
+    return _tableCells;
+}
+
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 0;
+    return [self.tableCells count];
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
+    return self.tableCells[indexPath.row];
 }
-*/
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
 
 /*
 // Override to support conditional editing of the table view.
